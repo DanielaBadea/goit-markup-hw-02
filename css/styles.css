@@ -38,7 +38,7 @@ body{
    }
 
    .header-logo:active{
-    background-color: #2196F3;
+    color: #2196F3;
    }
 
 
@@ -60,8 +60,7 @@ body{
     color: var(--links-hover-color);
 }
 .header-page .items-bar a:active{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    color: #2196F3;
 }
 
 .contact-items a{
@@ -77,7 +76,9 @@ body{
 .contact-items a:focus{
     color: var(--links-hover-color);
 }
-
+.contact-items a:active{
+    color: #2196F3;
+}
 main{
     background-color: var(--bkground-color);
 }
@@ -126,6 +127,7 @@ list-style: none;
 .target-info{
     letter-spacing: 0.026em;
     font-size: 14px;
+    font-weight: 400;
     /* line height este line height/font size */
     line-height: 1.7;
     color: var(--paragraph-color);
@@ -163,6 +165,7 @@ list-style: none;
 
 .training{
     font-size: 16px;
+    font-weight: 400;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--paragraph-color);
