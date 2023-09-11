@@ -62,7 +62,7 @@ body{
  .header-page .items-bar a:active{
     color: #2196F3;
 } 
-.header-page .navigation-bar .current{
+.header-page .items-bar .current{
     color: #2196F3;
 }
 
