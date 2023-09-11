@@ -59,7 +59,10 @@ body{
 .header-page .navigation-bar .item-bar a:focus{
     color: var(--links-hover-color);
 }
-.header-page .items-bar a:active{
+ .header-page .items-bar a:active{
+    color: #2196F3;
+} 
+.header-page .navigation-bar .current{
     color: #2196F3;
 }
 
@@ -76,9 +79,11 @@ body{
 .contact-items a:focus{
     color: var(--links-hover-color);
 }
-.contact-items a:active{
-    color: #2196F3;
-}
+ .contact-items a:active{
+   color: #2196F3;
+;
+} 
+
 main{
     background-color: var(--bkground-color);
 }
@@ -106,8 +111,8 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
-.request:hover{
-    background-color: #2196F3;
+.section-title .request:hover{
+    background-color: #188CE8;
     color: #FFFFFF;
 } 
 /* Section our targets */
